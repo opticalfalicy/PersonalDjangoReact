@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* width: 100%; */
+}
+
+
+/* 
+.App {
+    height: 1014px;
+    width: 100%;
+    /* margin: auto; */
+    /* background: url('./media/IMG_0056.JPG'); */
+    /* background-repeat: no-repeat; */
+    /* background-position: center; */
+    /* display: table; */
+    /* top: 0; */
+    /* background-size: 100% 145%; */
+    /* overflow: hidden; */
+
+
