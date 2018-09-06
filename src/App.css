@@ -34,7 +34,7 @@ html, body{
 
 
 
-    .tempNav {
+    .temp-nav {
         overflow: hidden;
         background-color: #333;
         position: fixed; /* Set the navbar to fixed position */
@@ -42,7 +42,7 @@ html, body{
         width: 100%; /* Full width */
       }
       
-      .navButton {
+      .nav-button {
         float: left;
         display: block;
         color: black;
@@ -52,7 +52,7 @@ html, body{
         font-size: 17px;
       }
       
-      .navButton:hover {
+      .nav-button:hover {
         background: #ddd;
         color: black;
       }
