@@ -1,0 +1,33 @@
+Stretch: Take this off of Django cause it sucks lol, switch to LESS,
+
+Backend on root directory...
+	-actual react app in src folder
+	-swedishgoodbye contains central django elements.
+	-Procfile is configured with settings.py
+	-Organize directories
+
+yarn start in src folder...
+	-To open frontend
+	-Opens to a mostly blank screen, find out why it's not going to the home page, or why the home page isn't the root url.
+
+Find out how to start the backend...
+	-remember how Django works.
+
+		-pipenv shell
+		-python manage.py runserver
+
+Home and About pages feel disproportionate
+
+No other pages work yet
+
+About Component:
+	
+	-Do something way better with the page's text. Sucks right now.
+
+CSS:
+	-Consolidate / organize stylings
+
+Implement Portfolio, Music, Contact pages.
+
+Brainstorm navbar improvements. Functional, but feels off.3
+

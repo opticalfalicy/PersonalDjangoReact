@@ -1,17 +1,11 @@
 import React, { Component } from 'react';
 
-import './front.css';
+import './about.css';
 
-class Front extends Component{
+class About extends Component{
 
     render(){
         return(
-            <div> 
-            <div className = 'front-page'>
-            <div className = 'front-text'>
-            Welcome
-            </div>
-            </div>
             <div className='about-page'>
                 <p class="about-text">
         
@@ -58,9 +52,8 @@ class Front extends Component{
             </p>
             
             </div>
-            </div>
         )
     }
 }
 
-export default Front;
+export default About;
