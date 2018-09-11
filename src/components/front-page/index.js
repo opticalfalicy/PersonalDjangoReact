@@ -5,11 +5,14 @@ import './front.css';
 class Front extends Component{
 
     render(){
-        return( 
+        return(
+            <div> 
             <div className = 'front-page'>
             <div className = 'front-text'>
             Welcome
             </div>
+            </div>
+            
             </div>
         )
     }

@@ -1,6 +1,6 @@
 from django.shortcuts import render
-from frontend.models import Project
-from frontend.serializers import ProjectSerializer
+from projects.models import Project
+from projects.serializers import ProjectSerializer
 from rest_framework import generics
 
 class ProjectListCreate(generics.ListCreateAPIView):

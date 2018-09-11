@@ -1,12 +1,15 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+
+import { Front, About } from '../components/'
+
 import './index.css';
 
 const Nav = props => {
     return (
         <div className = 'navbar' id = 'nav'>
              {/* Home */}
-            <NavLink to={"/home"} activeClassName='act' activeStyle={{display: 'none'}}>
+            <NavLink to={"#front"} activeClassName='act' activeStyle={{display: 'none'}}>
                 <a className='navbar-link'>Home</a>
             </NavLink> 
             {/* About */}
